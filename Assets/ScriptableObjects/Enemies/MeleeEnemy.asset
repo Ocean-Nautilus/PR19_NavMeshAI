@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538301a4817eeb24f8cea1c8f9c50a43, type: 3}
+  m_Name: MeleeEnemy
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyData
+  enemyName: "\u0412\u043E\u0438\u043D \u0431\u043B\u0438\u0436\u043D\u0435\u0433\u043E \u0431\u043E\u044F"
+  description: "\u0410\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043D\u044B\u0439 \u0432\u0440\u0430\u0433, \u0430\u0442\u0430\u043A\u0443\u044E\u0449\u0438\u0439 \u0432 \u0431\u043B\u0438\u0436\u043D\u0435\u043C \u0431\u043E\u044E."
+  walkSpeed: 2
+  runSpeed: 5
+  angularSpeed: 120
+  acceleration: 8
+  stoppingDistance: 0.5
+  autoBraking: 0
+  sightRange: 12
+  attackRange: 2
+  playerLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  patrolRange: 8
+  patrolWaitTime: 2
+  attackCooldown: 1.5
+  attackDamage: 15
+  maxHealth: 100
+  projectilePrefab: {fileID: 0}
+  attackPoint: {fileID: 0}
+  category: 0
+  rarity: 0
